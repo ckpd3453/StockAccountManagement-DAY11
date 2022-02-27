@@ -1,18 +1,20 @@
 package stockManagement;
 
-public class StockInfo {
+public class StockInfo2 {
 	private String stockName;
 	private String numberOfShare;
 	private String sharePrice;
+	
 
 	/*
 	 * constructor
 	 */
-	public StockInfo(String stockName, String numberOfShare, String sharePrice) {
+	public StockInfo2(String stockName, String numberOfShare, String sharePrice) {
 		super();
 		this.stockName = stockName;
 		this.numberOfShare = numberOfShare;
 		this.sharePrice = sharePrice;
+		
 	}
 
 	/*
@@ -22,6 +24,7 @@ public class StockInfo {
 	public String getStockName() {
 		return stockName;
 	}
+
 
 	public void setStockName(String stockName) {
 		this.stockName = stockName;
